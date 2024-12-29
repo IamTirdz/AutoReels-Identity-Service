@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FBE2027-DC5B-400D-A41F-9418C1C6DEB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15576C86-D098-41F5-BBD1-3EA12054C5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReels.Studio.Identity.Business", "src\AutoReels.Studio.Identity.Business\AutoReels.Studio.Identity.Business.csproj", "{BCA4D51A-8DD1-45B9-BA47-688C41E97002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReels.Studio.Identity.API", "src\AutoReels.Studio.Identity.API\AutoReels.Studio.Identity.API.csproj", "{7A014819-8ADB-474E-8DCB-06FCABC337EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReels.Studio.Identity.Common", "src\AutoReels.Studio.Identity.Common\AutoReels.Studio.Identity.Common.csproj", "{A5ACF366-5611-41F5-9055-FC77168C2ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReels.Studio.Identity.Data", "src\AutoReels.Studio.Identity.Data\AutoReels.Studio.Identity.Data.csproj", "{95F00097-7BA3-40CD-A2BD-3AC0F076B445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReels.Studio.Identity.UnitTests", "tests\AutoReels.Studio.Identity.UnitTests\AutoReels.Studio.Identity.UnitTests.csproj", "{91C7328E-6C58-4BB6-947A-083980C032FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA4D51A-8DD1-45B9-BA47-688C41E97002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA4D51A-8DD1-45B9-BA47-688C41E97002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA4D51A-8DD1-45B9-BA47-688C41E97002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA4D51A-8DD1-45B9-BA47-688C41E97002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A014819-8ADB-474E-8DCB-06FCABC337EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A014819-8ADB-474E-8DCB-06FCABC337EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A014819-8ADB-474E-8DCB-06FCABC337EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A014819-8ADB-474E-8DCB-06FCABC337EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ACF366-5611-41F5-9055-FC77168C2ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ACF366-5611-41F5-9055-FC77168C2ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ACF366-5611-41F5-9055-FC77168C2ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ACF366-5611-41F5-9055-FC77168C2ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F00097-7BA3-40CD-A2BD-3AC0F076B445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F00097-7BA3-40CD-A2BD-3AC0F076B445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F00097-7BA3-40CD-A2BD-3AC0F076B445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F00097-7BA3-40CD-A2BD-3AC0F076B445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C7328E-6C58-4BB6-947A-083980C032FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C7328E-6C58-4BB6-947A-083980C032FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C7328E-6C58-4BB6-947A-083980C032FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C7328E-6C58-4BB6-947A-083980C032FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCA4D51A-8DD1-45B9-BA47-688C41E97002} = {5FBE2027-DC5B-400D-A41F-9418C1C6DEB7}
+		{7A014819-8ADB-474E-8DCB-06FCABC337EE} = {5FBE2027-DC5B-400D-A41F-9418C1C6DEB7}
+		{A5ACF366-5611-41F5-9055-FC77168C2ED3} = {5FBE2027-DC5B-400D-A41F-9418C1C6DEB7}
+		{95F00097-7BA3-40CD-A2BD-3AC0F076B445} = {5FBE2027-DC5B-400D-A41F-9418C1C6DEB7}
+		{91C7328E-6C58-4BB6-947A-083980C032FB} = {15576C86-D098-41F5-BBD1-3EA12054C5A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {889175AA-A8B6-4B1D-9A04-D31C8AB3D4E4}
+	EndGlobalSection
+EndGlobal
